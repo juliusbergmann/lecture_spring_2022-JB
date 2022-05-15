@@ -24,6 +24,6 @@ def calculate_row_gap(height, angle_sun):
 row_gap = calculate_row_gap(module_height, sun_angle)
 
 print("The minimum gap between rows of panels with\n"
-      "a length of", module_length, "m and an angle of", module_angle,
+      "a module length of", module_length, "m and an construction angle of", module_angle,
       "° \nis", '{0:.3f}'.format(row_gap), "m.")
 
