@@ -20,7 +20,7 @@ limitations under the License.
 Illustrative repository for 370.062 Open Source Energy Systems Modelling at TU Wien
 
 The functions are used to calculate the minimum distance between multiple rows of pv-panels,
-so that the front panels don't throw shaddow on the back modules.
+so that the front panels don't throw shaddow on the panels on the back.
 
 The function calculate_module_height(length, angle) is used to get the maximum height of the construction
 
