@@ -11,6 +11,7 @@ module_angle = 10
 
 
 def calculate_module_height(length, angle):
+    # calculate the height the panel rises max over the ground
     return length * math.sin(angle * 2 * math.pi / 360)
 
 
@@ -18,6 +19,7 @@ module_height = calculate_module_height(module_length, module_angle)
 
 
 def calculate_row_gap(height, angle_sun):
+    # calculate how long the shadow of the panels reaches
     return height / math.tan(angle_sun * 2 * math.pi / 360)
 
 
