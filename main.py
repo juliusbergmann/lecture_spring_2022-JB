@@ -27,4 +27,3 @@ print("The minimum gap between rows of panels with\n"
       "a length of", module_length, "m and an angle of", module_angle,
       "° \nis", '{0:.3f}'.format(row_gap), "m.")
 
-print(calculate_row_gap(1, 45))
