@@ -3,6 +3,8 @@
 
 import math
 
+# angle of the sun in degree
+sun_angle = 18.5
 # length of panel in m
 module_length = 1.755
 # angle of module in degree
@@ -16,5 +18,11 @@ def calculate_module_height(length, angle):
 module_height = calculate_module_height(module_length, module_angle)
 
 
-print(module_height)
+def calculate_row_gap(height, angle_sun):
+    return height / math.tan(angle_sun * 2 * math.pi / 360)
 
+
+row_gap = calculate_row_gap(module_height, sun_angle)
+
+print("The minimum gap between rows of panels with\na length of", module_length, "m and an angle of", module_angle,
+      "° \nis", '{0:.3f}'.format(row_gap), "m.")
