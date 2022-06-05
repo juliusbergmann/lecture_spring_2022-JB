@@ -8,4 +8,4 @@ def test_calculate_module_height():
 
 def test_calculate_row_gap():
     assert (calculate_row_gap(1, 45) > 0.999999) and (
-        calculate_row_gap(1, 45)<0)
+        calculate_row_gap(1, 45) < 0)
