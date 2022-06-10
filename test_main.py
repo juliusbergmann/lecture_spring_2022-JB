@@ -1,9 +1,12 @@
 from main import calculate_module_height, calculate_row_gap
+import numpy as np
+import math
 
 
 def test_calculate_module_height():
-    assert (calculate_module_height(1.755, 10) < 0.304755) and (
-        calculate_module_height(1.755, 10) > 0.30475)
+    assert np.testing.assert_equal(1, 2)
+    #assert (calculate_module_height(1.755, 10) < 0.304755) and (
+    #    calculate_module_height(1.755, 10) > 0.30475)
 
 
 def test_calculate_row_gap():
