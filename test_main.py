@@ -5,7 +5,7 @@ import math
 
 def test_calculate_module_height():
     assert np.testing.assert_equal(1, 2)
-    #assert (calculate_module_height(1.755, 10) < 0.304755) and (
+    # assert (calculate_module_height(1.755, 10) < 0.304755) and (
     #    calculate_module_height(1.755, 10) > 0.30475)
 
 
